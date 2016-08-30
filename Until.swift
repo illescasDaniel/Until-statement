@@ -1,4 +1,4 @@
-func until(condition: () -> Bool, statements: () -> Void) {
+func until(_ condition: () -> Bool, statements: () -> Void) {
 	
 	while !condition(){
 		statements()
